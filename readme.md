@@ -10,6 +10,7 @@ camel, snake, dot, dash (hyphen) cases, and separated words.
 - to dash-case: "ctrl+alt+c", "ctrl+alt+h"
 - to separate words: "ctrl+alt+c", "ctrl+alt+w"
 - to seperate with slashes: "ctrl+alt+c", "ctrl+alt+/"
+- To Sentence case:  "ctrl+alt+c", "ctrl+alt+n"
 
 ## Install
 #### Git Clone
@@ -24,6 +25,7 @@ package install list.
 - Davis Clark
 - Scott Bessler
 - Curtis Gibby
+- Magnus Dahlstrand
 
 ## License
 Copyright (C) 2012 Davis Clark
