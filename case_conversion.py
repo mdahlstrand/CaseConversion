@@ -48,6 +48,12 @@ def to_slash(text):
 def to_separate_words(text):
     return text.replace("_", " ")
 
+def to_sentence_case(text):
+    text = to_pascal_case(text)
+    text = re.sub(r'([A-Z])', r' \1', text).lstrip()
+    text = text[0] + text.lower()[1:]
+    return text
+
 
 def run_on_selections(view, edit, func, no_lower=False):
     for s in view.sel():
@@ -93,3 +99,8 @@ class ConvertToSeparateWords(sublime_plugin.TextCommand):
 class ConvertToSlash(sublime_plugin.TextCommand):
     def run(self, edit):
         run_on_selections(self.view, edit, to_slash, True )
+
+
+class ConvertToSentence(sublime_plugin.TextCommand):
+    def run(self, edit):
+        run_on_selections(self.view, edit, to_sentence_case)
