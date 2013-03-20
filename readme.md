@@ -1,25 +1,22 @@
 # Case Conversion
-Case conversion is a plugin for Sublime Text 2. It converts the current word/token between pascal, 
-camel, snake, dot, dash (hyphen) cases, and separated words.
+Case conversion is a plugin for Sublime Text 2. It converts the current word/token between pascal, camel, snake, dot, dash (hyphen) cases, and separated words.
 
 ## Keybindings
-- To snake_case:  "ctrl+alt+c", "ctrl+alt+s"  
-- to camelCase: "ctrl+alt+c", "ctrl+alt+c"
-- to PascalCase: "ctrl+alt+c", "ctrl+alt+p"
-- to dot.case: "ctrl+alt+c", "ctrl+alt+d"
-- to dash-case: "ctrl+alt+c", "ctrl+alt+h"
-- to separate words: "ctrl+alt+c", "ctrl+alt+w"
-- to seperate with slashes: "ctrl+alt+c", "ctrl+alt+/"
-- To Sentence case:  "ctrl+alt+c", "ctrl+alt+n"
+- **snake_case**:  `ctrl+alt+c`, `ctrl+alt+s`
+- **camelCase**: `ctrl+alt+c`, `ctrl+alt+c`
+- **PascalCase**: `ctrl+alt+c`, `ctrl+alt+p`
+- **dot.case**: `ctrl+alt+c`, `ctrl+alt+d`
+- **dash-case**: `ctrl+alt+c`, `ctrl+alt+h`
+- **separate words**: `ctrl+alt+c`, `ctrl+alt+w`
+- **seperate/with/slashes**: `ctrl+alt+c`, `ctrl+alt+/`
+- **Sentence case**:  `ctrl+alt+c`, `ctrl+alt+n`
 
 ## Install
 #### Git Clone
-Clone this repository in to the Sublime Text 2 "Packages" directory, which is located where ever the 
-"Preferences" -> "Browse Packages" option in sublime takes you.
+Clone this repository in to the Sublime Text 2 "Packages" directory, which is located where ever the "Preferences" -> "Browse Packages" option in sublime takes you.
 
 #### Package Control
-Add https://github.com/jdc0589/CaseConversion as a Package Control repository. CaseConversion will show up in the
-package install list.
+Add https://github.com/jdc0589/CaseConversion as a Package Control repository. CaseConversion will show up in the package install list.
 
 ## Contributors
 - Davis Clark
